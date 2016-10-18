@@ -18,7 +18,7 @@ MAX_REQS = 50
 ENDPOINT = "https://api.datamarket.azure.com/Bing/Search/Composite?"
 KEY = ''
 if KEY=='':
-    print "You need a Bing API key from Azure Data Market. It's free"
+    print "You need a Bing API key from Azure Data Market. It's free: http://datamarket.azure.com/dataset/bing/search"
     sys.exit(-1)
 
 class Bing(object):
